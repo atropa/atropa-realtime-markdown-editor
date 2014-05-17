@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>
+        </title>
+        <link type="text/css"
+              rel="stylesheet"
+              href="style.css">
+        <script type="text/javascript"
+              src="marked.min.js">
+</script>
+    </head>
+    <body>
+        <div id="pageContent">
+            <div class="header panel"
+                 id="headerPanel">
+                The Glorious: Atropa Realtime Markdown Editor
+            </div>
+
+            <div class="editor panel"
+                 id="editorPanel">
+                <div class="editor pane"
+                     id="editorPane">
+                    <form action="http://localhost"
+                          method="post"
+                          class="fill"
+                          id="editorForm"
+                          name="editorForm">
+                            <textarea class="fill"
+                               id="editor"
+                               name="editor">
+#Markdown!
+</textarea>
+                    </form>
+                </div>
+
+                <div class="preview pane"
+                     id="previewPane">
+                </div>
+            </div>
+
+            <div class="control panel"
+                 id="controlPanel">
+                <input type="submit"
+                     value="POST to:"
+                     id="submitButton"><input type="text"
+                     id="inputURL">
+            </div>
+        </div>
+        <script type="text/javascript"
+              src="voodoo.js">
+</script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    border:0;
+    margin:0;
+    padding:0;
+}
+#pageContent {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:0;
+    padding:0;
+    border:solid black 2px;
+}
+
+.panel {
+    position:absolute;
+    left:0;
+    right:0;
+}
+.pane {
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+.fill {
+    width:100%;
+    height:100%
+}
+.panel, .pane, .fill {
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+#headerPanel {
+    top:0;
+    bottom:90%;
+    border-bottom:solid black 1px;
+}
+#editorPanel {
+    top:10%;
+    bottom:10%;
+}
+#controlPanel {
+    top:90%;
+    bottom:0;
+    border-top:solid black 1px;
+}
+
+#editorPane {
+    left:0;
+    right:50%;
+    border-right:solid black 1px;
+}
+#previewPane {
+    left:50%;
+    right:0;
+}
+#submitButton {
+    width:10%;
+}
+#inputURL {
+    width:40%;
+}
