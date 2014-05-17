@@ -6,4 +6,4 @@ This project is a rough draft for a markdown editor based on the markdown parser
 
 ## Installation and Usage
 
-Download this repo and open `Atropa Realtime Markdown Editor.html` in your browser. You can also use it online at [http://matthewkastor.github.io/atropa-realtime-markdown-editor/](http://matthewkastor.github.io/atropa-realtime-markdown-editor/)
+Download this repo and open `Atropa Realtime Markdown Editor.html` in your browser. You can also use it online at [http://atropa.github.io/atropa-realtime-markdown-editor/](http://atropa.github.io/atropa-realtime-markdown-editor/)
